@@ -12,7 +12,7 @@ package ut5pruebasintesisaguilerajavier;
 public class calculadora {
     private String operador1;
     private String operador2;
-    private String operacion;
+    private String operador;
 
     public String getOperador1() {
         return operador1;
@@ -31,10 +31,10 @@ public class calculadora {
     }
 
     public String getOperacion() {
-        return operacion;
+        return operador;
     }
 
     public void setOperacion(String operacion) {
-        this.operacion = operacion;
+        this.operador = operacion;
     }
 }
