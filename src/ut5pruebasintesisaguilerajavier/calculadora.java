@@ -10,8 +10,17 @@ package ut5pruebasintesisaguilerajavier;
  * @author 1-DAM-T
  */
 public class calculadora {
+    /**
+     * operador 1
+     */
     private String operador1;
+    /**
+     * operador 2
+     */
     private String operador2;
+    /**
+     * operacion
+     */
     private String operacion;
 
     public String getOperador1() {
