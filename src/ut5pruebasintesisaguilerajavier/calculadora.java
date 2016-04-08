@@ -5,6 +5,8 @@
  */
 package ut5pruebasintesisaguilerajavier;
 
+
+
 /**
  *
  * @author 1-DAM-T
@@ -14,6 +16,7 @@ public class calculadora {
      * operador 1
      */
     private String operador1;
+
     /**
      * operador 2
      */
@@ -22,6 +25,10 @@ public class calculadora {
      * operacion
      */
     private String operacion;
+
+    private String oper2;
+    private String operador;
+
 
     public String getOperador1() {
         return operador1;
@@ -32,18 +39,19 @@ public class calculadora {
     }
 
     public String getOperador2() {
-        return operador2;
+        return oper2;
     }
 
     public void setOperador2(String operador2) {
-        this.operador2 = operador2;
+        this.oper2 = operador2;
     }
 
     public String getOperacion() {
-        return operacion;
+        return operador;
     }
 
     public void setOperacion(String operacion) {
-        this.operacion = operacion;
+        this.operador = operacion;
     }
 }
+
